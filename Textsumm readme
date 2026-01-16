@@ -1,0 +1,76 @@
+# 🧠 NLP-Based Article Summarization Tool
+
+An AI-powered tool that summarizes lengthy articles using **Natural Language Processing (NLP)** techniques.  
+This project implements **extractive text summarization** by identifying and ranking the most important sentences from the input text to generate a concise, coalesced summary.
+
+---
+
+## 📌 Project Overview
+
+Reading long articles can be time-consuming. This project addresses that problem by:
+- Processing raw text
+- Identifying important keywords
+- Scoring sentences based on word importance
+- Generating a meaningful and concise summary
+
+The tool is implemented in **Python** and is fully compatible with **Google Colab**.
+
+---
+
+## 🚀 Features
+
+- Extractive text summarization  
+- NLP-based preprocessing  
+- Stopword removal and tokenization  
+- Sentence scoring using word frequency  
+- Modular and reusable Python functions  
+- Easy to run on Google Colab  
+
+---
+
+## 🛠️ Technologies Used
+
+- **Python**
+- **Natural Language Processing (NLP)**
+- **NLTK (Natural Language Toolkit)**
+- **Regular Expressions (re)**
+- **Google Colab**
+
+---
+
+## 📂 Project Structure
+
+
+---
+
+## ⚙️ How It Works
+
+1. **Text Preprocessing**
+   - Removes special characters
+   - Converts text to lowercase
+   - Tokenizes words and sentences
+   - Removes stopwords
+
+2. **Word Frequency Calculation**
+   - Calculates word importance
+   - Normalizes frequencies
+
+3. **Sentence Scoring**
+   - Scores sentences based on word frequency
+
+4. **Summary Generation**
+   - Selects top-ranked sentences
+   - Produces a coalesced summary
+
+---
+
+## ▶️ Installation & Usage
+
+### Run on Google Colab
+```python
+!pip install nltk
+import nltk
+
+
+nltk.download('punkt')
+nltk.download('stopwords')
